@@ -1,0 +1,57 @@
+html,body{padding: 0; margin: 0}
+a{text-decoration: none}
+.header{position: fixed; top: 0px; left: 0px; width: 100%; height: 91px;}
+.nav{height: 90px; background: #3e5f9e; padding: 0px 15px;}
+.main{max-width: 1000px; margin: 0px auto; }
+body{background: #f5f5f5; color: #000}
+.nav {display: flex; border-bottom: 1px solid #d9d9d9; justify-content: space-between}
+.nav .logo{width: 60px; margin-top: 15px; border-radius: 10px}
+.nav span{font-size: 18px; font-weight: bold; font-family: '微软雅黑'; color: #fff; line-height: 30px; margin-top: 28px; margin-left: 5px; margin-right: 50px}
+.nav a.menu{font-size: 18px; font-weight: bold; font-family: '微软雅黑'; color: #fff; line-height: 30px; margin-top: 28px; margin-left: 20px;}
+.dd2{margin-top: 20px;}
+
+.softinfo{background: #fff; padding: 15px; margin-top: 20px;}
+.softinfo .pic{width: 610px; margin-top: 20px;}
+.left{float: left}
+.softinfo .infobox{margin-left: 10px; float: left; width: 350px; box-sizing: border-box}
+.infobox h1{color: #000; }
+.infobox .info{color: #666; font-size: 15px; line-height: 28px;}
+.inftr{color: #666; font-size: 15px; line-height: 28px; text-align: center; margin-top: 20px;}
+.sec1{text-align: center}
+.sec1 img{max-width: 100%;}
+.infobox .info .pt{height: 18px; margin-top: 4px;}
+.linkd{margin-top: 6px; cursor: pointer; }
+.clear{clear: both}
+.stitle{font-size: 15px;}
+.split{background: #d9d9d9; height: 1px; width: 100%; margin-top: 10px 0;}
+.log{font-size: 14px; color: #333; padding: 15px;}
+.log span{color: #34495e; font-weight: bold}
+.xiazai{background: #25a4e2 url("./down.svg") no-repeat 10px 4px; cursor: pointer; background-size: 15px 15px; display: inline-block; line-height: 25px; padding: 0px 0px; border-radius: 4px; color: #fff; font-size: 14px; width: 35px;}
+.version{margin-top: 8px;}
+.newslist{list-style: none;}
+.newslist{margin-left: 0px; padding-left: 0px;}
+.newslist li{margin-left: 0px; border-bottom: 1px dashed #d9d9d9}
+.newslist li a{font-size: 14px; color: #34495e; line-height: 36px;}
+.newslist li h2{margin: 0; font-size: 14px; color: #34495e;}
+.copyright{font-size: 13px; color: #666; text-align: center}
+.date{font-size: 13px; color: #666; text-align: center}
+.content{font-size: 14px; padding: 5px 20px; box-sizing: border-box}
+.content img{max-width: 100%;}
+.content p{line-height: 28px; color: #2e2e2e;}
+.bloginfo h1{text-align: center; }
+.letsvpninfo{color: #333; font-size: 14px;}
+
+.page{padding-left: 0px; list-style: none; text-align: center}
+.page a{color: #34495e; font-size: 14px;}
+.taglist{padding: 10px 30px;}
+.taglist a{font-size: 13px; color: #25a4e2}
+.xgtj{padding: 10px 30px;}
+.feedback{padding: 30px;}
+.feedback .con{border: 1px solid #d9d9d9; width: 600px; height: 100px;}
+.feedback button{background: #25a4e2; color: #fff; padding: 4px 30px;border: none; margin-top: 20px;}
+
+@media screen and (max-width: 750px) {
+    .left{float: none;}
+    .softinfo .infobox{width: 100%}
+    .softinfo .pic{width: 100%}
+}
